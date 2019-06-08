@@ -1,0 +1,10 @@
+webfs
+
+webfs is a basic HTTP based web server for getting, creating, editing, and deleting files.
+
+It is meant as an simpler alternative to more complex protocols such as WebDAV.
+
+Usage webfs [-b <bind address> -d <data directory> -v]
+-b Specify the IP address and port to listen on
+-d Specify the data directory to work in
+Default is to listen on 127.0.0.1:8080 and work in the current directory

@@ -1,0 +1,4 @@
+/vendor/
+.DS_Store
+/cmd/webfs/*
+!/cmd/webfs/main.go
